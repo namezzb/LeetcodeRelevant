@@ -1,6 +1,7 @@
 package org.example.greedy;
 
 // LeetCode 55. 跳跃游戏
+// 贪心算法维护最远可达位置
 public class JumpGame {
     public boolean canJump(int[] nums) {
         int max = 0;
