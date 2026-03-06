@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // LeetCode 46. 全排列
+// 回溯算法生成所有排列
 public class Permute {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
