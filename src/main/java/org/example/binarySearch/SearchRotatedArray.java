@@ -1,6 +1,7 @@
 package org.example.binarySearch;
 
 // LeetCode 33. 搜索旋转排序数组
+// 二分查找判断有序区间
 public class SearchRotatedArray {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
