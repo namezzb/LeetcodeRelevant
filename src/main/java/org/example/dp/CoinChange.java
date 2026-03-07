@@ -1,6 +1,7 @@
 package org.example.dp;
 
 // LeetCode 322. 零钱兑换
+// 完全背包问题DP解法
 public class CoinChange {
     public int coinChange(int[] coins, int amount) {
         int[] dp = new int[amount + 1];
