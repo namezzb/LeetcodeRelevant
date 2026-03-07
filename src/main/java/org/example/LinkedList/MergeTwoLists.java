@@ -1,6 +1,7 @@
 package org.example.LinkedList;
 
 // LeetCode 21. 合并两个有序链表
+// 双指针归并排序思想
 public class MergeTwoLists {
     static class ListNode {
         int val;
