@@ -1,6 +1,7 @@
 package org.example.LinkedList;
 
 // LeetCode 141. 环形链表
+// 快慢指针检测环
 public class HasCycle {
     static class ListNode {
         int val;
