@@ -1,6 +1,7 @@
 package org.example.TwoPointer;
 
 // LeetCode 11. 盛最多水的容器
+// 双指针从两端向中间移动
 public class MaxArea {
     public int maxArea(int[] height) {
         int left = 0, right = height.length - 1, max = 0;
